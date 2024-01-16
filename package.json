@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://razen04.github.io/codespace-practice",
+    "build-gh": "parcel build --public-url 'https://razen04.github.io/codespace-practice'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
